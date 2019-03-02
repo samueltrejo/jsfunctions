@@ -16,3 +16,12 @@ namePrinter('Zoe', 'Ames');
 namePrinter('John', 'Doe');
 
 namePrinter(1, 2);
+
+const nuggetizer = (animal) => {
+    return `processed ${animal}`;
+}
+
+console.log(nuggetizer('pig'));
+console.log(nuggetizer('fish'));
+console.log(nuggetizer('chicken'));
+console.log(nuggetizer('students'));

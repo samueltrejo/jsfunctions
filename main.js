@@ -56,3 +56,17 @@ printToDom('dog-breeds', dogBreed('Syberian Husky'));
 printToDom('nuggetizer', nuggetizer('lion'));
 printToDom('nuggetizer', nuggetizer('cheetah'));
 printToDom('nuggetizer', 'mmmmmmmmmmmmmmmmmmmm');
+
+
+let bandNum = 1;
+const addBand = (divId, bandName) => {
+    //do stuff
+    //printToDom('band-list', ???)
+
+    printToDom(divId, `<p>${bandNum}. ${bandName}</p>`);
+    bandNum++
+}
+
+addBand('band-list', 'Muse');
+addBand('band-list', 'Lyrd Skynrd');
+addBand('band-list', 'Metallica');

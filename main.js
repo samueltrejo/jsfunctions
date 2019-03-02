@@ -14,3 +14,5 @@ const namePrinter = (firstName, lastName) => {
 
 namePrinter('Zoe', 'Ames');
 namePrinter('John', 'Doe');
+
+namePrinter(1, 2);
